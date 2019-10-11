@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* 
+  * TICKER CARDS STYLES
+*/
+  .ticker__container {
+
+  }
+
+  .ticker__container > li {
+    color: #09d3ac;
+    display: inline-block;
+    width: 30%;
+    margin: 0.5rem;
+    list-style: none;
+    background-color: #272C34;
+    border-radius: 0.35rem;
+    border-bottom: 3px solid #09d3ac;
+    border-left: 2px solid #09d3ac;
+  }
+/* 
+  * END OF TICKER CARDS STYLES
+*/
