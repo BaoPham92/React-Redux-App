@@ -11,7 +11,7 @@ const Tickers = ({ tickers }) => {
     } else return (
         <div>
             <h2>{data.name} Tickers: </h2>
-            <ul>
+            <ul className={`ticker__container`}>
                 {
                     data.tickers && data.tickers.map((ticker, key) => {
                         console.log(ticker, key)
